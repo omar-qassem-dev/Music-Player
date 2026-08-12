@@ -1,0 +1,13 @@
+IMAGE CREDIT
+
+The Adham Nabulsi source photo used for the album-art variants is:
+"Adham Nabulsi, MTV Lebanon - Mar 27, 2020.jpg"
+Author: MTV Lebanon
+Source: Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Adham_Nabulsi,_MTV_Lebanon_-_Mar_27,_2020.jpg
+
+License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+License: https://creativecommons.org/licenses/by/3.0/
+
+The three album-art files in img/ were cropped, color-adjusted and labeled from this source.
+Changes were made for the portfolio music-player UI.
