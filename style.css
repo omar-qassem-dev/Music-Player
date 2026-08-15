@@ -197,8 +197,14 @@ input[type="range"] {
     font-size: 20px;
 }
 
-.control-btn:hover,
-.play-btn:hover,
+@media (hover: hover) {
+    .control-btn:hover,
+    .play-btn:hover {
+        transform: translateY(-2px);
+        background: #38bdf8;
+    }
+}
+
 .control-btn.active {
     transform: translateY(-2px);
     background: #38bdf8;
