@@ -211,17 +211,6 @@ document.addEventListener('keydown', (event) => {
         event.preventDefault();
         togglePlay();
     }
-
-    if (event.code === 'ArrowRight') {
-        mySong.currentTime = Math.min(
-            mySong.currentTime + 5,
-            mySong.duration || mySong.currentTime
-        );
-    }
-
-    if (event.code === 'ArrowLeft') {
-        mySong.currentTime = Math.max(mySong.currentTime - 5, 0);
-    }
 });
 
 /* ==================================================
