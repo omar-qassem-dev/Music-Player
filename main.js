@@ -145,14 +145,30 @@ playPauseBtn.addEventListener('click', togglePlay);
 nextBtn.addEventListener('click', goNext);
 prevBtn.addEventListener('click', goPrevious);
 
+/* ==================================================
+   SHUFFLE / REPEAT
+================================================== */
+
 shuffleBtn.addEventListener('click', () => {
     shuffle = !shuffle;
+
+    if (shuffle) {
+        repeat = false;
+    }
+
     shuffleBtn.classList.toggle('active', shuffle);
+    repeatBtn.classList.toggle('active', repeat);
 });
 
 repeatBtn.addEventListener('click', () => {
     repeat = !repeat;
+
+    if (repeat) {
+        shuffle = false;
+    }
+
     repeatBtn.classList.toggle('active', repeat);
+    shuffleBtn.classList.toggle('active', shuffle);
 });
 
 mySong.addEventListener('play', updatePlayButton);
