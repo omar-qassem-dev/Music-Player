@@ -22,7 +22,7 @@ The project provides a clean and interactive music-player interface with playbac
 
 * HTML
 * CSS
-* **JavaScript
+* JavaScript
 
 ## 🌐 Live Demo
 
