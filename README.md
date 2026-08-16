@@ -26,7 +26,7 @@ The project provides a clean and interactive music-player interface with playbac
 
 ## 🌐 Live Demo
 
-[View Live Demo](YOUR-GITHUB-PAGES-LINK)
+[View Live Demo](https://omar-qassem-dev.github.io/Music-Player/)
 
 ## 📁 Project Structure
 
